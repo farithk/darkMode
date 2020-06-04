@@ -1,0 +1,52 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$secondary-color: #ffffff;
+
+.thanks {
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 3vw;
+  padding-top: 40vh;
+  font: $font-stack;
+  color: $primary-color;
+}
+
+.thanksDark {
+  width: 60%;
+  margin-left: 20%;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 3vw;
+  padding-top: 40vh;
+  font: $font-stack;
+  color: $secondary-color;
+}
+
+
+$breakpoint-tablet: 768px;
+@media (max-width: $breakpoint-tablet) {
+  .thanks {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 45vh;
+    font-size: 5vw;
+    color: $primary-color;
+  }
+
+  .thanksDark {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 45vh;
+    font: $font-stack;
+    font-size: 5vw;
+    color: $secondary-color;
+  }
+}

@@ -1,0 +1,157 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$secondary-color: #ffffff;
+$terciary-color: black;
+$logo-size: 50px;
+$font-size: 1.5vw;
+
+
+.inputForm{
+  width: 69%;
+  margin-left: 15%;
+
+}
+
+.insertName {
+  width: 100%;
+  height: 3vw;
+  margin-bottom: 1vw;
+  color: $primary-color;
+  border: none;
+  padding-left: 1vw;
+  font-size: $font-size;
+}
+
+.insertNameDark {
+  width: 100%;
+  height: 3vw;
+  margin-bottom: 1vw;
+  color: $secondary-color;
+  background-color: #414141;
+  border: none;
+  padding-left: 1vw;
+  font-size: $font-size;
+}
+
+.insertEmail {
+  width: 100%;
+  height: 3vw;
+  margin-bottom: 1vw;
+  color: $primary-color;
+  border: none;
+  padding-left: 1vw;
+  font-size: $font-size;
+}
+
+.insertEmailDark {
+  width: 100%;
+  height: 3vw;
+  margin-bottom: 1vw;
+  background-color: #414141;
+  color: $secondary-color;
+  border: none;
+  padding-left: 1vw;
+  font-size: $font-size;
+}
+
+.button {
+  float: right;
+  height: 3vw;
+  width: 10vw;
+  margin-top: 1vw;
+  background-color: #e78592;
+  border-radius: 5px;
+  border: none;
+  color: $secondary-color;
+  font-size: $font-size;
+}
+
+.buttonDark {
+  float: right;
+  height: 3vw;
+  width: 10vw;
+  margin-top: 1vw;
+  background-color: #74d6c7;
+  border-radius: 5px;
+  border: none;
+  color: $terciary-color;
+  font-size: $font-size;
+}
+
+
+$breakpoint-tablet: 768px;
+@media (max-width: $breakpoint-tablet) {
+
+  .inputForm{
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .insertName {
+    width: 100%;
+    height: 6vw;
+    margin-bottom: 3vw;
+    color: $primary-color;
+    border: none;
+    padding-left: 1vw;
+    font-size: 3vw;
+  }
+
+  .insertNameDark {
+    width: 100%;
+    height: 6vw;
+    margin-bottom: 3vw;
+    color: $secondary-color;
+    background-color: #414141;
+    border: none;
+    padding-left: 1vw;
+    font-size: 3vw;
+  }
+
+  .insertEmail {
+    width: 100%;
+    height: 6vw;
+    margin-bottom: 3vw;
+    color: $primary-color;
+    border: none;
+    padding-left: 1vw;
+    font-size: 3vw;
+  }
+
+  .insertEmailDark {
+    width: 100%;
+    height: 6vw;
+    margin-bottom: 3vw;
+    background-color: #414141;
+    color: $secondary-color;
+    border: none;
+    padding-left: 1vw;
+    font-size: 3vw;
+  }
+
+  .button {
+    float: right;
+    height: 6vw;
+    width: 20vw;
+    margin-top: 1vw;
+    background-color: #e78592;
+    border-radius: 5px;
+    border: none;
+    color: $secondary-color;
+    font-size: 3vw;
+  }
+
+  .buttonDark {
+    float: right;
+    height: 6vw;
+    width: 20vw;
+    margin-top: 1vw;
+    background-color: #74d6c7;
+    border-radius: 5px;
+    border: none;
+    color: $terciary-color;
+    font-size: 3vw;
+  }
+
+
+}

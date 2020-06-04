@@ -2,8 +2,8 @@ $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 $secondary-color: #ffffff;
 
-$logo-size: 50px;
-$font-size: 2.5vw;
+$logo-size: 40px;
+$font-size: 2vw;
 
 .logo:hover {
   cursor: pointer;
@@ -18,7 +18,7 @@ $font-size: 2.5vw;
   width: 70%;
   margin-left: 15%;
   height: 5vw;
-  padding-top: 3vw;
+  padding-top: 1vw;
 
 }
 
@@ -66,7 +66,7 @@ $breakpoint-tablet: 768px;
     color: $primary-color;
     margin-top: 2vw;
     font-size: 5vw;
-    margin-bottom: 10vw;
+    margin-bottom: 4vw;
   }
 
   .logo {
@@ -80,11 +80,48 @@ $breakpoint-tablet: 768px;
     color: $secondary-color;
     margin-top: 2vw;
     font-size: 5vw;
-    margin-bottom: 10vw;
+    margin-bottom: 4vw;
   }
 
   .logo {
     width: 40px;
   }
+
+}
+
+
+$breakpoint-tablet: 600px;
+@media (max-width: $breakpoint-tablet) {
+
+  .headerDark {
+    width: 90%;
+    margin-left: 5%;
+    height: 5vw;
+    padding-top: 3vw;
+
+  }
+
+  .title {
+    float: left;
+    width: 80%;
+    font: $font-stack;
+    color: $primary-color;
+    margin-top: 2vw;
+    font-size: 5vw;
+    margin-bottom: 10vw;
+  }
+
+
+  .titleDark {
+    float: left;
+    width: 80%;
+    font: $font-stack;
+    color: $secondary-color;
+    margin-top: 2vw;
+    font-size: 5vw;
+    margin-bottom: 10vw;
+  }
+
+
 
 }

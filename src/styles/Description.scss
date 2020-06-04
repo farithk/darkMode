@@ -2,7 +2,7 @@ $font-stack:    Helvetica, sans-serif;
 $primary-color: #333;
 $secondary-color: #ffffff;
 $logo-size: 50px;
-$font-size:1.4vw;
+$font-size:1.2vw;
 
 .containerMain {
   width: 70%;
@@ -26,6 +26,7 @@ $font-size:1.4vw;
   float: left;
   width: 47%;
   margin-bottom: 3vw;
+  text-align: justify;
 }
 
 .containerRight {
@@ -33,6 +34,7 @@ $font-size:1.4vw;
   width: 47%;
   margin-left: 5%;
   margin-bottom: 1vw;
+  text-align: justify;
 }
 
 
@@ -44,7 +46,44 @@ $breakpoint-tablet: 768px;
     margin-left: 5%;
     font: $font-stack;
     color: $primary-color;
-    font-size: 2.8vw;
+    font-size: 2vw;
+    margin-top: 0vw;
+  }
+
+  .containerMainDark {
+    width: 90%;
+    margin-left: 5%;
+    font: $font-stack;
+    color: $secondary-color;
+    font-size: 2vw;
+    margin-top: 0vw;
+  }
+
+  .containerLeft {
+    float: left;
+    width: 47%;
+    margin-bottom: 6vw;
+  }
+
+  .containerRight {
+    float: left;
+    width: 47%;
+    margin-left: 5%;
+    margin-bottom: 6vw;
+  }
+
+}
+
+
+$breakpoint-tablet: 600px;
+@media (max-width: $breakpoint-tablet) {
+
+  .containerMain {
+    width: 90%;
+    margin-left: 5%;
+    font: $font-stack;
+    color: $primary-color;
+    font-size: 2.6vw;
     margin-top: 2vw;
   }
 
@@ -53,7 +92,7 @@ $breakpoint-tablet: 768px;
     margin-left: 5%;
     font: $font-stack;
     color: $secondary-color;
-    font-size: 2.8vw;
+    font-size: 2.6vw;
     margin-top: 2vw;
   }
 

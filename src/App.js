@@ -36,7 +36,8 @@ function App() {
   }
 
   return (
-      <div className={isDark ? "App" : ""}>
+      <div >
+        {isDark ? <style>{'body { background-color: #121212; }'}</style> : <style>{'body { background-color: #e2e3dd; }'}</style>}
         {isMain ?  <Thanks /> : <Main />}
       </div>
   );
